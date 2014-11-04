@@ -12,6 +12,7 @@ var oauth = {
 
 // Status Message
 var statusMessage = process.argv[2] || 'Criando Laços! #TWAL2014';
+console.log('Tweets will use the message: ' + statusMessage);
 
 function updateStatusWithMedia(file) {
   var statusOptions = {
